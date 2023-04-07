@@ -1,0 +1,193 @@
+body {
+    font-family: 'Courier New', Courier, monospace
+}
+h1{
+    text-align: center;
+}
+
+#content-box{
+    width:500px;
+    height: 500px;
+    border: 10px solid black;
+    border-radius: 10px;
+    background:black;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+#pokemon-info {
+    width: 250px;
+    height: 500px;
+    background-color: red;
+    text-align: center;
+
+}
+
+#pokemon-list {
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    font-size: 18px;
+    overflow-y: auto; 
+}
+
+.pokemon-name {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#pokemon-info img{
+    width: 160px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#pokemon-types {
+    margin-top: 10px;
+}
+
+.type-box{
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+.normal {
+    background-color: beige;
+    color: black;
+}
+
+.fire {
+    background-color: orange;
+    color: white;
+}
+
+.grass {
+    background-color: green;
+    color: white;
+}
+
+.water {
+    background-color: blue;
+    color: white;
+}
+
+.ice {
+    background-color: lightblue;
+    color: black;
+}
+
+.electric {
+    background-color: gold;
+    color: black;
+}
+
+.fighting {
+    background-color: darkred;
+    color: white;
+}
+
+.flying {
+    background-color: skyblue;
+    color: black;
+}
+
+.bug {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.ghost {
+    background-color: purple;
+    color: white;
+}
+
+.rock {
+    background-color: sienna;
+    color: white;
+}
+
+.ground {
+    background-color: burlywood;
+    color: black;
+}
+
+.steel {
+    background-color: silver;
+    color: black;
+}
+
+.dark {
+    background-color: darkgray;
+    color: white;
+}
+
+.psychic {
+    background-color: palevioletred;
+    color: white;
+}
+
+.fairy {
+    background-color: pink;
+    color: black;
+}
+
+.dragon {
+    background-color: teal;
+    color: white;
+}
+
+.poison {
+    background-color: darkviolet;
+    color: white;
+}
+
+#pokemon-description{
+    width: 230px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 18px;
+    overflow-y: auto;
+}
+#top
+{
+  position:absolute;
+  top:0;
+  left:0;
+  height:50%;
+  width:100%;
+
+}
+
+#ball
+{
+  left:45%;
+  width:100px;
+  background-image:url(https://cdn.wccftech.com/wp-content/uploads/2016/08/Pokemon-GO-PokeBall.png);
+  background-size:100% 100%;
+  border-radius:100%;
+  box-shadow:10px 30px 40px -10px;
+  animation: ball 3s infinite;
+}
+@keyframes ball
+{
+  0%{height:100px;top:50%;box-shadow:0px 25px 5px -20px;}
+  25%{box-shadow:0px 25px 40px -20px}
+  50%{top:20%;height:100px;box-shadow:20px -10px 100px 0px;}
+  75%{box-shadow:0px 25px 30px -20px}
+  100%{height:100px;top:50%;transform:rotate(1080deg);box-shadow:0px 25px 5px -20px;}
+}
