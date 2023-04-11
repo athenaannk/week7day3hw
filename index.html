@@ -5,28 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="api.js" defer></script>
     <link rel="stylesheet" href="main.css">
-  
 </head>
 <body>
-    <h1>Click a Pokemon to Learn More!</h1>
-  
-    <div id="content-box">
-        <div id="pokemon-info">
-            <img id="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png">
+    <a href="index.html"><img src="pokedex.png"></a>
+    <form id="form"><input type="text" id="search" class="search" placeholder="Search your Pokemon"></form>
+    <div id="poke_container" class="poke_container">
 
-            <div id="pokemon-types">
-                <span class="type-box grass">GRASS</span><span class="type-box poison">POISON</span>
-
-            </div>
-            <div id="pokemon-description"></div>
-        </div>
-        <div id="pokemon-list"></div>
     </div>
-    <div id="top"></div>
-    <div id="bottom"></div>
-    <div id="ball"></div>
+    <script src="pokedex.js"></script>
 </body>
 </html>
